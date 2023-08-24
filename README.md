@@ -35,7 +35,35 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 - 버튼 만들기 - [ex2.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex2.html)
 
 ```html
-// hi 버튼 만들기 //
+1. hi 버튼 만들기
 
 <input type="button" value="hi">
+
+2. 버튼 클릭 시 경고창 띄우기 
+
+<input type="button" value="hi" onclick="alert('hi')">
+
+3. 텍스트 상자 만들기
+
+<input type="text">
+
+4. 텍스트 상자의 내용이 변했을 때 경고창 띄우기
+
+<input type="text" onchange="alert('changed')">
+
+5. 키를 눌렀을 때 경고창 띄우기
+
+<input type="text" onkeydown="alert('key down!')">
 ```
+
+
+
+
+
+
+
+
+
+
+
+
