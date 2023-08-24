@@ -28,3 +28,14 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ```html
 <script src="파일명.js"></script>
 ```
+
+## 3. 이벤트
+자바스크립트가 사용자와 상호작용하는 데 핵심적인 역할
+
+- 버튼 만들기 - [ex2.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex2.html)
+
+```html
+// hi 버튼 만들기 //
+
+<input type="button" value="hi">
+```
