@@ -56,6 +56,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 <input type="text" onkeydown="alert('key down!')">
 ```
 
+## 4. 데이터 타입 - 문자열과 숫자
 
 
 
