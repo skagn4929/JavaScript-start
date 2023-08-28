@@ -56,8 +56,42 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 <input type="text" onkeydown="alert('key down!')">
 ```
 
+## 4. 제어할 태그 선택하기
+사용자와 상호작용해서 HTML과 CSS를 프로그래밍적으로, 동적으로 변경하기
 
+- 주간, 야간 모드 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html)
 
+```html
+1. night 버튼과 day 버튼 만들기
+
+<input type="button" value="night">
+<input type="button" value="day">
+
+2. 버튼을 클릭했을 때의 이벤트를 추가하기 위해 onclick 속성을 추가
+
+<input type="button" value="night" onclick="">
+<input type="button" value="day" onclick="">
+
+3. night 버튼을 클릭하면 배경색이 검은색이 되도록 onclick 속성 값을 설정
+
+<input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor = 'black';
+">
+
+4. night 버튼을 클릭하면 글자색이 흰색이 되도록 onclick 속성 값을 추가
+
+<input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color = 'white';
+">
+
+5. day 버튼을 클릭하면 배경색이 흰색, 글자색이 검은색이 되도록 완성
+
+<input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color = 'black';
+">
+```
 
 
 
