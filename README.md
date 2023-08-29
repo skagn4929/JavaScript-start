@@ -93,9 +93,19 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ">
 ```
 
+## 5. 비교 연산자와 불리언
+비교 연산자(===)는 왼쪽에 있는 값과 오른쪽에 있는 값이 같은지 판단한다.    
+결과는 true나 false 중 하나이며, 그 값을 묶어서 불리언이라고 부른다.
 
+- 비교 연산자와 불리언 - [ex4.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex4.html)
 
+```html
+<script>
+  document.write(1===1);  → 좌우 두 값이 같으므로 true 출력
 
+  document.write(1===2);  → 좌우 두 값이 다르므로 false 출력
+</script>
+```
 
 
 
