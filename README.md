@@ -152,3 +152,51 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ">
 ```
 
+## 7. 리팩터링
+코드의 가독성을 높이고, 유지보수를 편리하게 만들고, 중복된 코드를 줄이는 방향으로 코드를 개선하는 작업
+
+- 중복의 제거 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
+
+```html
+1. this 키워드 사용 : onclick과 같은 이벤트 안에서 실행되는 코드에서 현재 코드가 속해 있는 태그를 가리키도록 약속돼 있는 특수한 키워드
+
+<input type="button" value="night" onclick="
+  if(this.value === 'night') {
+      document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color = 'white';
+      this.value = 'day';
+  } else {
+      document.querySelector('body').style.backgroundColor = 'white';
+      document.querySelector('body').style.color = 'black';
+      this.value = 'night';
+  }
+">
+
+2. <body> 태그를 target 변수에 할당하고, target 변수 사용
+
+<input type="button" value="night" onclick="
+  var target = document.querySelector('body');
+  if(this.value === 'night') {
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'day';
+  } else {
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'night';
+  }
+">
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
