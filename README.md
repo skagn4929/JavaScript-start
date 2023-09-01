@@ -189,7 +189,39 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 
 ```
 
+## 8. 배열
+데이터 중에서 서로 연관된 데이터를 잘 정리 정돈해서 담아두는 일종의 수납상자   
+배열은 대괄호로 시작해서 대괄호로 끝나며 값과 값 사이는 콤마(,)로 구분한다.
 
+- 배열 만들기 - [ex6.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex6.html)
+
+```html
+1. 배열을 coworkers 변수에 넣기
+
+<script>
+  var coworkers = ["egoing", "leezche"]
+</script>
+
+2. 배열에서 데이터 꺼내기
+
+<script>
+  document.write(coworkers[0]);  → 첫 번째 자리에 있는 값은 0번째라는 뜻  
+  document.write(coworkers[1]);
+</script>
+
+3. 배열에 들어있는 값이 몇 개인지 확인
+
+<script>
+  document.write(coworkers.length);
+</script>
+
+4. 배열에 데이터 추가
+
+<script>
+  coworkers.push('duru');
+  coworkers.push('taeho');
+</script>
+```
 
 
 
