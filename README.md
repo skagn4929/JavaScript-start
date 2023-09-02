@@ -186,7 +186,6 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
       this.value = 'night';
   }
 ">
-
 ```
 
 ## 8. 배열
@@ -223,7 +222,36 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 </script>
 ```
 
+## 9. 반복문
+순서대로 실행되는 프로그램의 흐름을 제어하는 제어문   
+while : 반복문의 키워드   
+while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 true인 동안에는 while 문 안의 코드가 false가 될 때까지 반복적으로 실행된다.
 
+- while 반복문 실습 - [ex7.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex7.html)
+
+```html
+1. 스크립트 태그안에 숫자 1~4 까지 리스트 작성
+
+<script>
+  document.write("<li>1</li>");
+  document.write("<li>2</li>");
+  document.write("<li>3</li>");
+  document.write("<li>4</li>");
+</script>
+
+2. while 반복문을 이용해 2,3번째 코드를 3번 반복
+
+<script>
+  document.write("<li>1</li>");
+  var i = 0;
+  while(i < 3) {
+    document.write("<li>2</li>");
+    document.write("<li>3</li>");
+    i = i + 1;                     → '기존의 i의 값에 1을 더한 결과를 i의 새로운 값으로 준다' 라는 뜻                       
+  }
+  document.write("<li>4</li>");
+</script>
+```
 
 
 
