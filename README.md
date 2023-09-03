@@ -319,6 +319,40 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 </script>
 ```
 
+- return 문 실습 - [ex9.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex9.html)
+
+```html
+1. sum2() 함수 추가
+
+<script>
+  function sum2(left, right) {
+
+  } 
+</script>
+
+2. sum2(2,3)에 스타일 추가
+
+<script>
+  function sum2(left, right) {
+
+  }
+  document.write(sum2(2, 3) + "<br>");
+  document.write('<div style="color: red;">' + sum2(2, 3) + "</div><br>");
+  document.write('<div style="font-size: 3rem">' + sum2(2, 3) + "</div><br>"); 
+</script>
+
+3. return 문 추가
+
+<script>
+  function sum2(left, right) {
+    return left + right;  //  → sum2()를 실행한 결괏값을 돌려준다.
+  }
+  document.write(sum2(2, 3) + "<br>");
+  document.write('<div style="color: red;">' + sum2(2, 3) + "</div><br>");
+  document.write('<div style="font-size: 3rem">' + sum2(2, 3) + "</div><br>"); 
+</script>
+```
+
 
 
 
