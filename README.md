@@ -6,7 +6,7 @@
 
 ---
 ## 1. JavaScript란?
-HTML과 CSS로 구성된 웹페이지를 동적으로 만들어 주는 언어
+HTML과 CSS로 구성된 웹페이지를 동적으로 만들어 주는 언어.
 
 - 객체(object) 기반의 스크립트 언어이다.
 - 웹의 동작을 구현할 수 있다.
@@ -30,7 +30,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ```
 
 ## 3. 이벤트
-자바스크립트가 사용자와 상호작용하는 데 핵심적인 역할
+자바스크립트가 사용자와 상호작용하는 데 핵심적인 역할.
 
 - 버튼 만들기 - [ex2.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex2.html)
 
@@ -57,7 +57,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ```
 
 ## 4. 제어할 태그 선택하기
-사용자와 상호작용해서 HTML과 CSS를 프로그래밍적으로, 동적으로 변경하기
+사용자와 상호작용해서 HTML과 CSS를 프로그래밍적으로, 동적으로 변경하기.
 
 - 주간, 야간 모드 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
 
@@ -101,14 +101,14 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 
 ```html
 <script>
-  document.write(1===1);  → 좌우 두 값이 같으므로 true 출력
+  document.write(1===1);  // → 좌우 두 값이 같으므로 true 출력
 
-  document.write(1===2);  → 좌우 두 값이 다르므로 false 출력
+  document.write(1===2);  // → 좌우 두 값이 다르므로 false 출력
 </script>
 ```
 
 ## 6. 조건문(if)
-조건에 따라 다른 순서의 기능들이 실행되게 하는 것
+조건에 따라 다른 순서의 기능들이 실행되게 하는 것.
 
 - night 버튼과 day 버튼을 하나로 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
 
@@ -153,7 +153,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ```
 
 ## 7. 리팩터링
-코드의 가독성을 높이고, 유지보수를 편리하게 만들고, 중복된 코드를 줄이는 방향으로 코드를 개선하는 작업
+코드의 가독성을 높이고, 유지보수를 편리하게 만들고, 중복된 코드를 줄이는 방향으로 코드를 개선하는 작업.
 
 - 중복의 제거 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
 
@@ -189,7 +189,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ```
 
 ## 8. 배열
-데이터 중에서 서로 연관된 데이터를 잘 정리 정돈해서 담아두는 일종의 수납상자   
+데이터 중에서 서로 연관된 데이터를 잘 정리 정돈해서 담아두는 일종의 수납상자.   
 배열은 대괄호로 시작해서 대괄호로 끝나며 값과 값 사이는 콤마(,)로 구분한다.
 
 - 배열 만들기 - [ex6.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex6.html)
@@ -204,7 +204,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 2. 배열에서 데이터 꺼내기
 
 <script>
-  document.write(coworkers[0]);  → 첫 번째 자리에 있는 값은 0번째라는 뜻  
+  document.write(coworkers[0]);  // → 첫 번째 자리에 있는 값은 0번째라는 뜻  
   document.write(coworkers[1]);
 </script>
 
@@ -223,7 +223,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ```
 
 ## 9. 반복문
-순서대로 실행되는 프로그램의 흐름을 제어하는 제어문   
+순서대로 실행되는 프로그램의 흐름을 제어하는 제어문.   
 while : 반복문의 키워드   
 while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 true인 동안에는 while 문 안의 코드가 false가 될 때까지 반복적으로 실행된다.
 
@@ -247,14 +247,77 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
   while(i < 3) {
     document.write("<li>2</li>");
     document.write("<li>3</li>");
-    i = i + 1;                     → '기존의 i의 값에 1을 더한 결과를 i의 새로운 값으로 준다' 라는 뜻                       
+    i = i + 1;  //               → '기존의 i의 값에 1을 더한 결과를 i의 새로운 값으로 준다' 라는 뜻                       
   }
   document.write("<li>4</li>");
 </script>
 ```
 
+## 10. 함수(function)
+자신의 외부 코드가 '호출'할 수 있는 하위 프로그램. 함수에 값을 '전달'하면, 함수는 값을 '반환'한다.   
+입력에 해당하는 것을 매개변수 또는 인자라고 하며, 출력에 해당하는 것은 return과 관련이 있다.
+
+- 함수의 기본적인 문법 실습 - [ex9.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex9.html)
+
+```html
+1. 임의의 코드 리스트 작성
+
+<script>
+  document.write('<li>1</li>');
+  document.write('<li>2-1</li>');
+  document.write('<li>2-2</li>');
+  document.write('<li>3</li>');
+  document.write('<li>2-1</li>');
+  document.write('<li>2-2</li>');
+</script>
 
 
+2. 반복되는 코드를 함수로 바꾸기
+
+<script>
+  function two() {
+    document.write('<li>2-1</li>');
+    document.write('<li>2-2</li>');
+  }  
+  document.write('<li>1</li>');
+  two();
+  document.write('<li>3</li>');
+  two();
+</script>
+```
+
+- 매개변수와 인자 실습 - [ex9.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex9.html)
+
+```html
+1. 1+1을 출력하는 코드 작성
+
+<script>
+  document.write(1+1);  → '2'를 출력
+</script>
+
+2. 1+1을 함수로 만들기
+
+<script>
+  function onePlusOne() {
+    document.write(1+1);
+  }
+  onePlusOne();
+</script>
+
+3. 입력값에 따라 다른 결과를 출력하는 함수로 만들기
+
+<script>
+  function oneplusone() {
+    document.write(1 + 1 + "<br>");
+  }
+  oneplusone();
+  function sum(left, right) {
+    document.write(left + right + "<br>");
+  }
+  sum(2, 3); // 5                         → 이때 함수로 전달하는 2,3이라는 값을 '인자'라고 하며,
+  sum(3, 4); // 7                           이 값을 받아서 함수 안으로 매개하는 변수(left, right)를 '매개변수'라 한다.
+</script>
+```
 
 
 
