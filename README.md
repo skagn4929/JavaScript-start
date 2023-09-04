@@ -101,9 +101,9 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 
 ```html
 <script>
-  document.write(1===1);  // → 좌우 두 값이 같으므로 true 출력
+  document.write(1===1);   → 좌우 두 값이 같으므로 true 출력
 
-  document.write(1===2);  // → 좌우 두 값이 다르므로 false 출력
+  document.write(1===2);   → 좌우 두 값이 다르므로 false 출력
 </script>
 ```
 
@@ -204,7 +204,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 2. 배열에서 데이터 꺼내기
 
 <script>
-  document.write(coworkers[0]);  // → 첫 번째 자리에 있는 값은 0번째라는 뜻  
+  document.write(coworkers[0]);   → 첫 번째 자리에 있는 값은 0번째라는 뜻  
   document.write(coworkers[1]);
 </script>
 
@@ -247,7 +247,7 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
   while(i < 3) {
     document.write("<li>2</li>");
     document.write("<li>3</li>");
-    i = i + 1;  //               → '기존의 i의 값에 1을 더한 결과를 i의 새로운 값으로 준다' 라는 뜻                       
+    i = i + 1;   → '기존의 i의 값에 1을 더한 결과를 i의 새로운 값으로 준다' 라는 뜻                       
   }
   document.write("<li>4</li>");
 </script>
@@ -314,8 +314,8 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
   function sum(left, right) {
     document.write(left + right + "<br>");
   }
-  sum(2, 3); // 5                         → 이때 함수로 전달하는 2,3이라는 값을 '인자'라고 하며,
-  sum(3, 4); // 7                           이 값을 받아서 함수 안으로 매개하는 변수(left, right)를 '매개변수'라 한다.
+  sum(2, 3);   → 이때 함수로 전달하는 2,3이라는 값을 '인자'라고 하며,
+  sum(3, 4);     이 값을 받아서 함수 안으로 매개하는 변수(left, right)를 '매개변수'라 한다.
 </script>
 ```
 
@@ -345,7 +345,7 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 
 <script>
   function sum2(left, right) {
-    return left + right;  //  → sum2()를 실행한 결괏값을 돌려준다.
+    return left + right;   → sum2()를 실행한 결괏값을 돌려준다.
   }
   document.write(sum2(2, 3) + "<br>");
   document.write('<div style="color: red;">' + sum2(2, 3) + "</div><br>");
@@ -363,7 +363,7 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 1. 객체 만들기
 
 <script>
-  var coworkers = { }    //  → 객체를 만들 때 사용하는 기호를 객체 리터럴이라 하며, 중괄호를 쓴다.
+  var coworkers = { }   → 객체를 만들 때 사용하는 기호를 객체 리터럴이라 하며, 중괄호를 쓴다.
 </script>
 
 2. 객체에 정보 담기
@@ -382,17 +382,23 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
     "programmer":"egoing"
     "designer":"leezche"
   }
-  document.write("programmer : " + coworkers.programmer + "<br>");  //  → cowrkers 다음에 있는 점(.)은 객체 접근 연산자.
+  document.write("programmer : " + coworkers.programmer + "<br>");   → cowrkers 다음에 있는 점(.)은 객체 접근 연산자.
   document.write("designer : " + coworkers.designer + "<br>");
 </script>
 
+4. 객체에 정보 추가하고 가져오기
 
+<script>
+  coworkers.bookkeeper = "duru";
+  document.write("bookkeeper : " + coworkers.bookkeeper + "<br>");
+</script>
 
+5. 이름에 공백이 있는 정보를 추가하고, 가져오기
 
-
-
-
-
+<script>
+  coworkers["data scientist"] = "taeho";   → 이름에 공백이 들어갈 경우 대괄호를 써서 문자열 형태로 넣어야 한다.
+  document.write("data scientist : " + coworkers["data scientist"] + "<br>");
+</script>
 ```
 
 
