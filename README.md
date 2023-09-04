@@ -353,6 +353,47 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 </script>
 ```
 
+## 11. 객체
+관련된 데이터와 함수의 집합.   
+즉, 서로 연관된 함수와 변수를 그루핑해서 정리 정돈하기 위한 수납상자.
+
+- 객체의 기본적인 문법 실습 - [ex10.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex10.html)
+
+```html
+1. 객체 만들기
+
+<script>
+  var coworkers = { }    //  → 객체를 만들 때 사용하는 기호를 객체 리터럴이라 하며, 중괄호를 쓴다.
+</script>
+
+2. 객체에 정보 담기
+
+<script>
+  var coworkers = {
+    "programmer":"egoing"
+    "designer":"leezche"
+  }
+</script>
+
+3. 객체에서 정보 가져오기
+
+<script>
+  var coworkers = {
+    "programmer":"egoing"
+    "designer":"leezche"
+  }
+  document.write("programmer : " + coworkers.programmer + "<br>");  //  → cowrkers 다음에 있는 점(.)은 객체 접근 연산자.
+  document.write("designer : " + coworkers.designer + "<br>");
+</script>
+
+
+
+
+
+
+
+
+```
 
 
 
