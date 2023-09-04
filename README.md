@@ -386,7 +386,7 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
   document.write("designer : " + coworkers.designer + "<br>");
 </script>
 
-4. 객체에 정보 추가하고 가져오기
+4. 객체에 정보 추가하고, 가져오기
 
 <script>
   coworkers.bookkeeper = "duru";
