@@ -401,6 +401,39 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 </script>
 ```
 
+- 반복문 for .. in 실습 - [ex10.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex10.html)
+
+```html
+1. 반복문 for .. in 사용
+
+<script>
+  for(var key in coworkers) { }   → for는 객체에 있는(in) key 값을 가져오는 반복문. key는 가져오고 싶은 정보에 도달할 수 있는 열쇠.
+</script>
+
+2. 반복문에서 객체의 키 값 출력
+
+<script>
+  for(var key in coworkers) {
+    document.write(key + '<br>');
+  }
+</script>
+
+3. 반복문에서 객체의 키 값에 해당하는 데이터 출력
+
+<script>
+  for(var key in coworkers) {
+    document.write(coworkers[key] + '<br>');
+  }
+</script>
+
+4. 반복문에서 객체의 키 값과 데이터 모두 출력
+
+<script>
+  for(var key in coworkers) {
+    document.write(key + ':' + coworkers[key] + '<br>');
+  }
+</script>
+```
 
 
 
