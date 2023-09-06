@@ -97,7 +97,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 비교 연산자(===)는 왼쪽에 있는 값과 오른쪽에 있는 값이 같은지 판단한다.    
 결과는 true나 false 중 하나이며, 그 값을 묶어서 불리언이라고 부른다.
 
-- 비교 연산자와 불리언 - [ex4.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex4.html)
+- 비교 연산자와 불리언 실습 - [ex4.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex4.html)
 
 ```html
 <script>
@@ -155,7 +155,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ## 7. 리팩터링
 코드의 가독성을 높이고, 유지보수를 편리하게 만들고, 중복된 코드를 줄이는 방향으로 코드를 개선하는 작업.
 
-- 중복의 제거 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
+- 중복의 제거 실습 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
 
 ```html
 1. this 키워드 사용 : onclick과 같은 이벤트 안에서 실행되는 코드에서 현재 코드가 속해 있는 태그를 가리키도록 약속돼 있는 특수한 키워드
@@ -192,7 +192,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 데이터 중에서 서로 연관된 데이터를 잘 정리 정돈해서 담아두는 일종의 수납상자.   
 배열은 대괄호로 시작해서 대괄호로 끝나며 값과 값 사이는 콤마(,)로 구분한다.
 
-- 배열 만들기 - [ex6.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex6.html)
+- 배열 실습 - [ex6.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex6.html)
 
 ```html
 1. 배열을 coworkers 변수에 넣기
