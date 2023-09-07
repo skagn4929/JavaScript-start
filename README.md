@@ -59,7 +59,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ## 4. 제어할 태그 선택하기
 사용자와 상호작용해서 HTML과 CSS를 프로그래밍적으로, 동적으로 변경하기.
 
-- 주간, 야간 모드 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
+- 주간 & 야간 모드 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
 
 ```html
 1. night 버튼과 day 버튼 만들기
@@ -446,3 +446,5 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 - UI : 'User Interface'의 약자이며, 사용자가 시스템을 제어하기 위해 사용하는 조작장치. ex) 웹페이지에 있는 버튼
 
 - API : 'Application Programming Interface'의 약자이며, 애플리케이션을 만들기 위해 프로그래밍할 때 사용하는 조작장치. ex) alert( ) 함수 : 경고창을 실행하는 조작장치
+
+---
