@@ -95,7 +95,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 
 ## 5. 비교 연산자와 불리언
 비교 연산자(===)는 왼쪽에 있는 값과 오른쪽에 있는 값이 같은지 판단한다.    
-결과는 true나 false 중 하나이며, 그 값을 묶어서 불리언이라고 부른다.
+결과는 true or false 중 하나이며, 그 값을 묶어서 불리언이라고 부른다.
 
 - 비교 연산자와 불리언 실습 - [ex4.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex4.html)
 
@@ -230,7 +230,7 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 - while 반복문 실습 - [ex7.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex7.html)
 
 ```html
-1. 스크립트 태그안에 숫자 1~4 까지 리스트 작성
+1. 스크립트 태그안에 임의의 리스트 작성
 
 <script>
   document.write("<li>1</li>");
