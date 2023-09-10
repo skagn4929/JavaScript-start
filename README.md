@@ -59,7 +59,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ## 4. 제어할 태그 선택하기
 사용자와 상호작용해서 HTML과 CSS를 프로그래밍적으로, 동적으로 변경하기.
 
-- 주간 & 야간 모드 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
+- night & day 버튼 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
 
 ```html
 1. night 버튼과 day 버튼 만들기
