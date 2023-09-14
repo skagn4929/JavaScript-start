@@ -110,7 +110,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ## 6. 조건문(if)
 조건에 따라 다른 순서의 기능들이 실행되게 하는 것.
 
-- night 버튼과 day 버튼을 하나로 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
+- night 버튼과 day 버튼을 토글 키로 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
 
 ```html
 1. 버튼에 조건문 형식 추가
