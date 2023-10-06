@@ -449,4 +449,3 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 - API : 'Application Programming Interface'의 약자이며, 애플리케이션을 만들기 위해 프로그래밍할 때 사용하는 조작장치.   
   - ex) alert( ) 함수 : 경고창을 실행하는 조작장치
 
----
