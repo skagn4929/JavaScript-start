@@ -8,12 +8,12 @@
 ## 1. JavaScript란?
 HTML과 CSS로 구성된 웹페이지를 동적으로 만들어 주는 언어.
 
-- 객체(object) 기반의 스크립트 언어이다.
-- 웹의 동작을 구현할 수 있다.
-- Node.js와 같은 프레임워크를 사용하면 서버 측 프로그래밍에서도 사용할 수 있다.
+- 객체(object) 기반의 스크립트 언어.
+- 웹의 동작을 구현할 수 있습니다.
+- Node.js와 같은 프레임워크를 사용하면 서버 측 프로그래밍에서도 사용할 수 있습니다.
 
 ## 2. 기본 문법
-HTML문서 안에서 사용 시 두가지 방법이 있다.
+HTML문서 안에서 사용 시 두가지 방법이 있습니다.
 
 - 내부 자바스크립트
 
@@ -32,7 +32,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ## 3. 이벤트
 자바스크립트가 사용자와 상호작용하는 데 핵심적인 역할.
 
-- 버튼 만들기 - [ex2.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex2.html)
+- **버튼 만들기**
 
 ```html
 1. hi 버튼 만들기
@@ -59,7 +59,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ## 4. onclick 속성
 사용자와 상호작용해서 HTML과 CSS를 프로그래밍적으로, 동적으로 변경하기.
 
-- night & day 버튼 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
+- **주간 & 야간 모드 만들기**
 
 ```html
 1. night 버튼과 day 버튼 만들기
@@ -94,10 +94,10 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ```
 
 ## 5. 비교 연산자와 불리언
-비교 연산자(===)는 왼쪽에 있는 값과 오른쪽에 있는 값이 같은지 판단한다.    
-결과는 true or false 중 하나이며, 그 값을 묶어서 불리언이라고 부른다.
+비교 연산자(===)는 왼쪽에 있는 값과 오른쪽에 있는 값이 같은지 판단합니다.    
+결과는 true or false 중 하나이며, 그 값을 묶어서 불리언이라고 부릅니다.
 
-- 비교 연산자와 불리언 실습 - [ex4.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex4.html)
+- **비교 연산자와 불리언 실습** 
 
 ```html
 <script>
@@ -110,7 +110,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ## 6. 조건문(if)
 조건에 따라 다른 순서의 기능들이 실행되게 하는 것.
 
-- night & day 버튼을 토글 키로 만들기 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
+- **night & day 버튼을 토글 키로 만들기**
 
 ```html
 1. 버튼에 조건문 형식 추가
@@ -155,7 +155,7 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ## 7. 리팩터링
 코드의 가독성을 높이고, 유지보수를 편리하게 만들고, 중복된 코드를 줄이는 방향으로 코드를 개선하는 작업.
 
-- 리팩터링 실습 - [ex3.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex3.html), [colors.js](https://github.com/skagn4929/JavaScript-start/blob/main/colors.js)
+- **리팩터링 실습**
 
 ```html
 1. this 키워드 사용 : onclick과 같은 이벤트 안에서 실행되는 코드에서 현재 코드가 속해 있는 태그를 가리키도록 약속돼 있는 특수한 키워드
@@ -190,9 +190,9 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 
 ## 8. 배열
 데이터 중에서 서로 연관된 데이터를 잘 정리 정돈해서 담아두는 일종의 수납상자.   
-배열은 대괄호로 시작해서 대괄호로 끝나며 값과 값 사이는 콤마(,)로 구분한다.
+배열은 대괄호로 시작해서 대괄호로 끝나며 값과 값 사이는 콤마(,)로 구분합니다.
 
-- 배열 실습 - [ex6.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex6.html)
+- **배열 실습**
 
 ```html
 1. 배열을 coworkers 변수에 넣기
@@ -225,9 +225,9 @@ HTML문서 안에서 사용 시 두가지 방법이 있다.
 ## 9. 반복문(while 문)
 순서대로 실행되는 프로그램의 흐름을 제어하는 제어문.   
 while : 반복문의 키워드   
-while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 true인 동안에는 while 문 안의 코드가 false가 될 때까지 반복적으로 실행된다.
+while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 true인 동안에는 while 문 안의 코드가 false가 될 때까지 반복적으로 실행됩니다.
 
-- while 반복문 실습 - [ex7.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex7.html)
+- **while 반복문 실습**
 
 ```html
 1. 스크립트 태그안에 임의의 리스트 작성
@@ -254,10 +254,10 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 ```
 
 ## 10. 함수(function)
-자신의 외부 코드가 '호출'할 수 있는 하위 프로그램. 함수에 값을 '전달'하면, 함수는 값을 '반환'한다.   
-입력에 해당하는 것을 매개변수 또는 인자라고 하며, 출력에 해당하는 것은 return과 관련이 있다.
+자신의 외부 코드가 '호출'할 수 있는 하위 프로그램. 함수에 값을 '전달'하면, 함수는 값을 '반환'합니다.   
+입력에 해당하는 것을 매개변수 또는 인자라고 하며, 출력에 해당하는 것은 return과 관련이 있습니다.
 
-- 함수의 기본적인 문법 실습 - [ex9.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex9.html)
+- **함수의 기본적인 문법 실습**
 
 ```html
 1. 임의의 코드 리스트 작성
@@ -286,7 +286,7 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 </script>
 ```
 
-- 매개변수와 인자 실습 - [ex9.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex9.html)
+- **매개변수와 인자 실습** 
 
 ```html
 1. 1+1을 출력하는 코드 작성
@@ -319,7 +319,7 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 </script>
 ```
 
-- return 문 실습 - [ex9.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex9.html)
+- **return 문 실습** 
 
 ```html
 1. sum2() 함수 추가
@@ -356,9 +356,9 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 ## 11. 객체
 관련된 데이터와 함수의 집합.   
 즉, 서로 연관된 함수와 변수를 그루핑해서 정리 정돈하기 위한 수납상자.   
-객체에 소속된 함수를 메서드라고 하며, 객체에 소속된 변수를 프로퍼티라 한다.
+객체에 소속된 함수를 메서드라고 하며, 객체에 소속된 변수를 프로퍼티라 합니다.
 
-- 객체의 기본적인 문법 실습 - [ex10.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex10.html)
+- **객체의 기본적인 문법 실습** 
 
 ```html
 1. 객체 만들기
@@ -402,7 +402,7 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 </script>
 ```
 
-- 반복문 for .. in 실습 - [ex10.html](https://github.com/skagn4929/JavaScript-start/blob/main/ex10.html)
+- **반복문 for .. in 실습**
 
 ```html
 1. 반복문 for .. in 사용
@@ -436,17 +436,19 @@ while 괄호 안에는 불리언 데이터 타입이 들어오며, 내용이 tru
 </script>
 ```
 
-## 12. 라이브러리 
-만들고자 하는 프로그램에 필요한 부품들이 되는 소프트웨어들을 잘 정리정돈해 놓은, 재사용하기 쉽게 돼 있는 소프트웨어.
+## 12. 라이브러리(Library) 
+프로그래밍에서 재사용 가능한 코드를 모아둔 집합체로, 특정 기능을 수행하기 위한 함수, 클래스, 모듈 등이 포함되어 있습니다.   
+개발자가 반복되는 작업을 최소화하고 효율적으로 코드를 작성할 수 있도록 돕는 도구입니다.   
+언어나 프레임워크에 종속적일 수 있으며, 이를 통해 개발자는 더욱 효과적으로 코드를 작성하고 유지보수할 수 있습니다.
 
-- **jQuery** : 라이브러리 중에서 가장 유명하며, 안정적이다. 파일을 직접 내려받은 후 프로젝트 디렉터리로 옮겨야 한다.
-- **CDN** : 'Content Delivery Network'의 약자이며, 서버에 파일을 보관해 놓고 사용자는 <script> 태그의 src 속성을 통해 가져가는 방식.
+- **React.js**: 사용자 인터페이스를 구축하기 위한 JavaScript 라이브러리. 컴포넌트 기반 아키텍처를 사용하여 UI를 재사용 가능하고 모듈화된 단위로 구성할 수 있습니다.
+- **jQuery** : JavaScript 라이브러리로, HTML 문서 조작, 이벤트 처리, 애니메이션 등을 간편하게 수행할 수 있도록 도와줍니다.
 
 ## 13. UI 와 API
-- **UI** : 'User Interface'의 약자이며, 사용자가 시스템을 제어하기 위해 사용하는 조작장치.
-  - ex) 웹페이지에 있는 버튼
+- **UI (User Interface)** : 사용자와 시스템 간의 상호 작용을 가능하게 하는 모든 것을 의미합니다.   
+사용자가 어떻게 제품 또는 서비스와 소통하는지를 결정하는 디자인, 레이아웃, 피드백 등을 포함합니다.
 
-- **API** : 'Application Programming Interface'의 약자이며, 애플리케이션을 만들기 위해 프로그래밍할 때 사용하는 조작장치.   
-  - ex) alert( ) 함수 : 경고창을 실행하는 조작장치
-
+- **API (Application Programming Interface)** : 소프트웨어 간 상호 작용을 위한 인터페이스를 제공하는 도구 또는 규약입니다.      
+주로 웹 API는 웹 서비스 간의 통신을 위한 것으로, 클라이언트와 서버 간 데이터 교환을 위한 규칙을 정의합니다.   
+서로 다른 시스템이 효율적으로 소통하고 상호 작용할 수 있도록 도와주는 핵심적인 기술입니다.
 
